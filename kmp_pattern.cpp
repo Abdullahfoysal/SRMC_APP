@@ -4,74 +4,69 @@ using namespace std;
 
 int main()
 {
-	string text="";
-	string pat="";
+	string text="abcabcabc";
+	string pat="abcabc";
 	int n,m;
 	cin>>n>>m;
+	cin>>text>>pat;
 	int a;
 	
 	int arr[pat.size()];
 	arr[0]=0;
 
-	for(int i=1,j=0;i<pat.size();i++)
+	for(int i=1,j=0;i<pat.size();)
 	{
 		if(pat[j]==pat[i])
 		{
 			arr[i]=j+1;
 			j++;
+			i++;
 		}
 		else
 		{
-			if(j-1>=0 )//&& pat[j]!=pat[i]
+		//while needed
+
+			if(j!=0 )//&& pat[j]!=pat[i]
 			{
 				j=arr[j-1];
-
-				if(pat[j]==pat[i])
-				{
-					arr[i]=j+1;
-					j++;
-				}
-				else
-				{
-					arr[i]=0;
-				}
-
 			}
-			else arr[i]=0;
+			else 
+			{
+
+				arr[i]=0;
+				i++;
+			}
 
 			
 		}
 	}
-	// for(int i=0;i<pat.size();i++)cout<<arr[i]<<" ";
-		// cout<<endl;
+	// for(auto x:arr)cout<<x<<" ";
     int j=0,d=0;
-	for (int i = 0; i < text.size(); ++i)
+//kmp search
+	for (int i = 0; i < text.size();)
 	{
 		if(text[i]==pat[j])
 		{
 			j++;
+			i++;
 			// cout<<j<<endl;
-
-
 		}
-		else 
+
+		if(j==pat.size())
 		{
-			if(j-1>=0)
+			cout<<"found on index "<<i-j<<endl;
+			j=arr[j-1];
+		}
+		else if(i<text.size() && pat[j]!=text[i])
+		{
+			if(j!=0)
 			{
 				j=arr[j-1];
-				if(text[i]==pat[j])
-				{
-					j++;
-					
-				}
 			}
+			else i++;
 		}
-		if(j==pat.size())
-			{
-				j=0;
-				d++;
-				
-			}
+
+
 
 	}
 	cout<<d<<endl;
