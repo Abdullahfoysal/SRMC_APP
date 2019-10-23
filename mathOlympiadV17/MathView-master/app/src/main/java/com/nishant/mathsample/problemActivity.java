@@ -23,6 +23,7 @@ import java.util.StringTokenizer;
 
 public class problemActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
+    private TextView activityTitle;
     private ListView listView;
     private MyDatabaseHelper databaseHelper;
     private Cursor cursor;
@@ -31,6 +32,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
     private ActionBarDrawerToggle mtoggle;
     private problemActivity context;
     private Toolbar toolbar;
+    private String method="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +47,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
         //Data base work
         databaseHelper = new MyDatabaseHelper(this);
 
-        String method=getIntent().getExtras().getString("method");
+         method=getIntent().getExtras().getString("method");
 
         loadData(method);
         listView.setOnItemClickListener(this);
@@ -53,6 +55,8 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
     }
     public void loadData(String method) {
+        activityTitle= this.<TextView>findViewById(R.id.activityTitleId);
+        activityTitle.setText(method.toUpperCase());
 
         Cursor USER_CURSOR=databaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
         String solvingString="";
@@ -78,7 +82,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
                 boolean show=DbContract.userSolvingString(solvingString,PROBLEM_ID,method);
                 if(show)
-                listData.add(cursor.getString(0)+". "+cursor.getString(1));
+                listData.add(cursor.getString(0)+".     "+cursor.getString(1));
 
             }
         }

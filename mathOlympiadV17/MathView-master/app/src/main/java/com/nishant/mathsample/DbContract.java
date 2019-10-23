@@ -90,8 +90,6 @@ public class DbContract {
         });
 
         alertDialog.show();
-        alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(Color.parseColor(String.valueOf(Color.GRAY)));
-        //alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setBackgroundColor(Color.CYAN);
 
     }
 
