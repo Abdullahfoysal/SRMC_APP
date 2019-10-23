@@ -2,6 +2,7 @@ package com.nishant.mathsample;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -51,6 +52,8 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
     private String KEY="problemId";
     private String realSolution="#!?@";
     private String submittedSolution="";
+    private String verdict="No submission";
+    private TextView textViewverdict;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,11 +68,43 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
 
         //Database
         databaseHelper = new MyDatabaseHelper(this);
+        loadAll();
 
+
+
+
+    }
+    private void loadAll(){
         findId();
-        receiveData();
+        receiveData();//get problemId
         loadData();
-        submitButton.setOnClickListener(this);
+        loadUserData();
+    }
+    private void loadUserData(){
+        cursor=databaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+
+        String solvingString="";
+        if(cursor.moveToNext()){
+            solvingString=cursor.getString(8);//user solviing string
+        }
+        char ch=solvingString.charAt(problemId);
+        int result=Character.getNumericValue(ch);
+        if(result==DbContract.NOT_TOUCHED){
+           verdict="No submission";
+        }
+        else if(result==DbContract.SOLVED){
+            verdict="Accepted";
+            textViewverdict.setTextColor(Color.GREEN);
+        }
+        else if(result==DbContract.NOT_ABLE_SOLVED){
+            verdict="Enough tried(),"+DbContract.SOLVED+"Times";
+            textViewverdict.setTextColor(Color.BLUE);
+        }
+        else if(result >DbContract.NOT_TOUCHED && result<DbContract.SOLVED){
+            verdict="Wrong";
+            textViewverdict.setTextColor(Color.RED);
+        }
+        textViewverdict.setText(verdict);
 
     }
 
@@ -106,6 +141,10 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
         title = this.<TextView>findViewById(R.id.problemTitleId);
         submitButton=findViewById(R.id.solutionSubmitButtonId);
         submittedSolutionEditText=findViewById(R.id.submittedSolutionEditTextId);
+        textViewverdict= this.<TextView>findViewById(R.id.submissionVerdictId);
+
+        submitButton.setOnClickListener(this);
+
 
     }
     void receiveData(){
@@ -125,6 +164,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
                 return;
             }
 
+
             if(realSolution.equals(submittedSolution)){
 
 
@@ -141,14 +181,16 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
                     submittedSolutionEditText.setHint("Already Tried "+DbContract.SOLVED+" times ");
 
                 }
-                else
-                DbContract.Alert(this,"Problem Verdict","Accepted");
+
+               // DbContract.Alert(this,"Problem Verdict","Accepted");
                 submittedSolutionEditText.setHint("Accepted (-_-)");
 
             }
             else{
+
                 Toast.makeText(this,"Wrong",Toast.LENGTH_LONG).show();
                 int verdict= DbContract.changeUserSolvingString(problemId,false);
+                
                 if(verdict==DbContract.SOLVED){
                     Toast.makeText(this,"Already Solved ",Toast.LENGTH_LONG).show();
                     DbContract.Alert(this,"Problem Verdict","Wrong");
@@ -180,6 +222,9 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
 
             submittedSolutionEditText.setText("");
             DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);//userUpdate data saved to server
+
+            //user current submission verdict load
+            loadUserData();
         }
 
 

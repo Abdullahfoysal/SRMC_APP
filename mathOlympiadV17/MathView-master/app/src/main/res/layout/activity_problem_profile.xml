@@ -54,17 +54,26 @@
 
 
                 <EditText
+                    android:padding="10dp"
                     android:background="#C8F8C8"
                     android:id="@+id/submittedSolutionEditTextId"
-                    android:layout_width="280dp"
+                    android:layout_width="250dp"
                     android:layout_height="150dp"
                     android:hint="Enter answer"
                     android:inputType="text" />
+
+
+
                 <Button
                     android:id="@+id/solutionSubmitButtonId"
                     android:text="Submit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
+
+
+                <include
+                    layout="@layout/verdict_view"/>
+
 
             </LinearLayout>
 
