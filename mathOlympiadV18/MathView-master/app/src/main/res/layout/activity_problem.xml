@@ -37,36 +37,26 @@
             android:columnCount="2">
 
             <android.support.v7.widget.CardView
-                android:layout_gravity="start"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:padding="5dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
 
 
 
 
             <TextView
                 android:textAlignment="center"
-                android:layout_gravity="center"
+                android:layout_gravity="start"
                 android:textColor="#1E88E5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No. "
                 android:textStyle="bold"
                 android:textSize="20sp"/>
-            </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:layout_gravity="center"
-                android:layout_marginRight="60dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-               android:padding="5dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp">
+
+
 
             <TextView
                 android:textAlignment="center"
@@ -77,6 +67,8 @@
                 android:text="TITLE "
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+
+
 
             </android.support.v7.widget.CardView>
 

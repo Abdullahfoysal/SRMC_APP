@@ -26,6 +26,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 import static android.support.v4.content.ContextCompat.startActivity;
@@ -421,6 +424,82 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
             return "updated userInformation on Local";
 
             //retrive data from json object end
+
+        }
+        else if(method.equals("allUserRankingDataFetching")){//for statics of Ranking
+
+            ArrayList<userRankStatics> arrayList=new ArrayList<>();
+
+
+            String result=null;
+            InputStream is=null;
+
+            try {
+                URL url = new URL(DbContract.ALL_USER_STATICS_DATA_URL);
+                HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                con.setDoOutput(true);
+                con.setRequestMethod("GET");
+                is = new BufferedInputStream(con.getInputStream());
+            }catch(Exception e){
+                e.printStackTrace();
+                return "No connection is available";
+            }
+            //read is content into a string
+            try{
+                BufferedReader br=new BufferedReader(new InputStreamReader(is,"UTF-8"));
+                StringBuilder sb=new StringBuilder();
+                String line=null;
+                while((line=br.readLine())!=null){
+
+                    sb.append(line+"\n");
+
+                }
+                is.close();
+                result=sb.toString();
+
+            }catch(Exception e){
+                e.printStackTrace();
+                return "No connection is available";
+            }
+            //parse json data
+            try {
+                JSONArray ja = new JSONArray(result);
+                JSONObject jo = null;
+
+                for (int i = 0; i < ja.length(); i++){
+
+                    jo = ja.getJSONObject(i);
+
+                    final String NAME = jo.getString("name");
+                    final String INSTITUTION=jo.getString("institution");
+                    final String TOTAL_SOLVED=jo.getString("totalSolved");
+
+                   userRankStatics person=new userRankStatics();
+
+
+                        person.setNAME(NAME);
+                        person.setINSTITUTION(INSTITUTION);
+                        person.setSOLVED(TOTAL_SOLVED);
+
+                        arrayList.add(person);
+
+
+
+                    System.out.println(NAME+" "+INSTITUTION+" "+TOTAL_SOLVED);
+
+
+                }
+
+                DbContract.userRankList=arrayList;
+
+
+
+            } catch(Exception e){
+            e.printStackTrace();
+            return "No connection is available";
+        }
+
+            return "SUCESSFULLY GET RANKING";
 
         }
 

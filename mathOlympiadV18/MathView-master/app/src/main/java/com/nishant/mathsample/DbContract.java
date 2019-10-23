@@ -52,6 +52,7 @@ public class DbContract {
     public static final String SERVER_URL4="http://192.168.0.107/syncdemo/allDataFetching.php";//15/10/19->8:05 pm
     public static final String ALL_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/allDataFetching.php";//15/10/19->8:05 pm
     public static final String USER_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/userDataFetching.php";
+    public static final String ALL_USER_STATICS_DATA_URL="http://192.168.0.101/syncdemo/allUserDataFetching.php";//ranking of statics
     public static final String LOGIN_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/userLogin.php";//15/10/19->8:05 pm
     public static final String CHECK_SIGNUP_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/checkSignUp.php";
     public static final String UI_UPDATE_BROADCAST="com.nishant.mathsample.uiupdatebroadcast";
@@ -63,6 +64,7 @@ public class DbContract {
     public static final String PROBLEM_ID="problemId";
     public static final String SYNC_STATUS="syncstatus";
     public static String CURRENT_USER_NAME="alex";
+    public static  ArrayList<userRankStatics>userRankList=new ArrayList<>();
 
     //NEW USER SOLVING STRING SIZE=20,001
     public static final String NEW_USER_SOLVING_STRING="00000000000000000000000000000000000000000000000000000000000000000000000000000000000";
@@ -439,6 +441,19 @@ public class DbContract {
 
 
             }
+        }
+
+        public static synchronized void allUserRankingDataFetching(Context ctx){
+
+            if (checkNetworkConnection(ctx)) {
+                String method = "allUserRankingDataFetching";
+                BackgroundTask backgroundTask = new BackgroundTask(ctx);
+                backgroundTask.execute(method);
+
+            }
+            else DbContract.Alert(ctx,"Network Connection","Connect to Internet");
+
+
         }
 
 
