@@ -20,7 +20,9 @@
         android:gravity="center"
         tools:context=".homeActivity">
 
+
         <include layout="@layout/activity_grid"/>
+
 
         <Button
 

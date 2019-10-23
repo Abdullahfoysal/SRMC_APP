@@ -3,6 +3,7 @@ package com.nishant.mathsample;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
+import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,7 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -42,7 +45,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
     private problemProfileActivity context;
     private Toolbar toolbar;
 
-    private MyDatabaseHelper databaseHelper;
+    private MyDatabaseHelper myDatabaseHelper;
     private Cursor cursor;
     private TextView title;
     private Button submitButton;
@@ -63,11 +66,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
         mathView.setText("$$a^2$$");
         //load nav_menu
         context=this;
-        loadNavMenu();
 
-
-        //Database
-        databaseHelper = new MyDatabaseHelper(this);
         loadAll();
 
 
@@ -75,13 +74,17 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
 
     }
     private void loadAll(){
+        myDatabaseHelper = new MyDatabaseHelper(this);
+
         findId();
         receiveData();//get problemId
         loadData();
         loadUserData();
+        loadNavMenu();
+        setNavMenuInfo();
     }
     private void loadUserData(){
-        cursor=databaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+        cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
 
         String solvingString="";
         if(cursor.moveToNext()){
@@ -111,7 +114,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
     public void loadData() {
 
 
-        cursor = databaseHelper.showAllData("problemAndSolution");
+        cursor = myDatabaseHelper.showAllData("problemAndSolution");
 
         if (cursor.getCount() == 0) {
             Toast.makeText(getApplicationContext(), "NO data is available in database", Toast.LENGTH_LONG).show();
@@ -146,12 +149,32 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
         submitButton.setOnClickListener(this);
 
 
+
+
     }
+
     void receiveData(){
         bundle = getIntent().getExtras();
          problemId=Integer.parseInt(bundle.getString(KEY));
 
         // Toast.makeText(this,problemId,Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            View v = getCurrentFocus();
+            if ( v instanceof EditText) {
+                Rect outRect = new Rect();
+                v.getGlobalVisibleRect(outRect);
+                if (!outRect.contains((int)event.getRawX(), (int)event.getRawY())) {
+                    v.clearFocus();
+                    InputMethodManager imm = (InputMethodManager) getSystemService(this.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                }
+            }
+        }
+        return super.dispatchTouchEvent( event );
     }
 
     @Override
@@ -163,6 +186,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
                 DbContract.Alert(this,"Problem Submission:","You are Guest only\n Login To Try Problems");
                 return;
             }
+
 
 
             if(realSolution.equals(submittedSolution)){
@@ -286,5 +310,44 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
         });
     }
     //nav menu function end
+
+    private void setNavMenuInfo(){
+        TextView USERNAME,NAME,INSTITUTION,EMAIL,PHONE;
+        String _USERNAME="",_NAME="",_INSTITUTION="",_EMAIL="",_PHONE="";
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+
+        // get menu from navigationView
+        // Menu menu = navigationView.getMenu();
+
+        navigationView= this.<NavigationView>findViewById(R.id.nav_view);
+
+        //MenuItem menuItem=navigationView.getMenu().findItem(R.id.)
+        View headerView =navigationView.getHeaderView(0);
+        USERNAME= headerView.<TextView>findViewById(R.id.userNameId);
+        NAME= headerView.<TextView>findViewById(R.id.fullUserNameId);
+        INSTITUTION= headerView.<TextView>findViewById(R.id.institutionTextId);
+        EMAIL= headerView.<TextView>findViewById(R.id.userEmailProfileId);
+        PHONE= headerView.<TextView>findViewById(R.id.userPhoneProfileId);
+
+
+        Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+
+        if(cursor.moveToNext()) {
+            _NAME = cursor.getString(0);
+            _USERNAME = cursor.getString(1);
+            _INSTITUTION = cursor.getString(7);
+            _EMAIL = cursor.getString(5);
+            _PHONE = cursor.getString(6);
+        }
+
+        USERNAME.setText(_USERNAME);
+        NAME.setText(_NAME);
+        INSTITUTION.setText(_INSTITUTION);
+        EMAIL.setText(_EMAIL);
+        PHONE.setText(_PHONE);
+
+    }
 
 }

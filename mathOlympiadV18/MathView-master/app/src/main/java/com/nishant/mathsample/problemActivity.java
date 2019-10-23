@@ -25,7 +25,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
     private TextView activityTitle;
     private ListView listView;
-    private MyDatabaseHelper databaseHelper;
+    private MyDatabaseHelper myDatabaseHelper;
     private Cursor cursor;
 
     private DrawerLayout mDrawerLayout;
@@ -41,24 +41,34 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
         //load nav_menu
         context=this;
-        loadNavMenu();
+        loadAll();
 
+
+
+    }
+    private void loadAll(){
+        loadPreData();//list view of problems
+        loadNavMenu();
+        setNavMenuInfo();
+
+
+
+    }
+    private void loadPreData(){
         listView = this.<ListView>findViewById(R.id.problemActivityListViewId);
         //Data base work
-        databaseHelper = new MyDatabaseHelper(this);
+        myDatabaseHelper = new MyDatabaseHelper(this);
 
-         method=getIntent().getExtras().getString("method");
+        method=getIntent().getExtras().getString("method");
 
         loadData(method);
         listView.setOnItemClickListener(this);
-
-
     }
     public void loadData(String method) {
         activityTitle= this.<TextView>findViewById(R.id.activityTitleId);
         activityTitle.setText(method.toUpperCase());
 
-        Cursor USER_CURSOR=databaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+        Cursor USER_CURSOR=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
         String solvingString="";
 
         if(USER_CURSOR.moveToNext()){
@@ -69,7 +79,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
         ArrayList<String> listData = new ArrayList<>();
 
-         cursor = databaseHelper.showAllData("problemAndSolution");
+         cursor = myDatabaseHelper.showAllData("problemAndSolution");
 
 
         if (cursor.getCount() == 0) {
@@ -83,6 +93,8 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
                 boolean show=DbContract.userSolvingString(solvingString,PROBLEM_ID,method);
                 if(show)
                 listData.add(cursor.getString(0)+".     "+cursor.getString(1));
+
+
 
             }
         }
@@ -179,5 +191,44 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
         });
     }
     //nav menu function end
+
+    private void setNavMenuInfo(){
+        TextView USERNAME,NAME,INSTITUTION,EMAIL,PHONE;
+        String _USERNAME="",_NAME="",_INSTITUTION="",_EMAIL="",_PHONE="";
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+
+        // get menu from navigationView
+        // Menu menu = navigationView.getMenu();
+
+        navigationView= this.<NavigationView>findViewById(R.id.nav_view);
+
+        //MenuItem menuItem=navigationView.getMenu().findItem(R.id.)
+        View headerView =navigationView.getHeaderView(0);
+        USERNAME= headerView.<TextView>findViewById(R.id.userNameId);
+        NAME= headerView.<TextView>findViewById(R.id.fullUserNameId);
+        INSTITUTION= headerView.<TextView>findViewById(R.id.institutionTextId);
+        EMAIL= headerView.<TextView>findViewById(R.id.userEmailProfileId);
+        PHONE= headerView.<TextView>findViewById(R.id.userPhoneProfileId);
+
+
+        Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+
+        if(cursor.moveToNext()) {
+            _NAME = cursor.getString(0);
+            _USERNAME = cursor.getString(1);
+            _INSTITUTION = cursor.getString(7);
+            _EMAIL = cursor.getString(5);
+            _PHONE = cursor.getString(6);
+        }
+
+        USERNAME.setText(_USERNAME);
+        NAME.setText(_NAME);
+        INSTITUTION.setText(_INSTITUTION);
+        EMAIL.setText(_EMAIL);
+        PHONE.setText(_PHONE);
+
+    }
 
 }

@@ -51,7 +51,9 @@
 
                 </com.nishant.math.MathView>
 
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
                 <EditText
                     android:padding="10dp"
@@ -61,6 +63,9 @@
                     android:layout_height="150dp"
                     android:hint="Enter answer"
                     android:inputType="text" />
+
+
+</LinearLayout>
 
 
 

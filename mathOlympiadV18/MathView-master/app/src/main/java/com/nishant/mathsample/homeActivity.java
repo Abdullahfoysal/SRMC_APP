@@ -78,14 +78,18 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
         loadLocalDatabase();
          guestUser();
         findAllButton();
-        loadNavMenu();
         checkingNetworkAndThread();//problem update to local and user signUp upload to server
+        loadNavMenu();
+        setNavMenuInfo();
         userAllFunction();
 
 
 
     }
     private void userAllFunction(){
+        //all user Rank
+        DbContract.allUserRankingDataFetching(this);
+
         gridLayout= this.<GridLayout>findViewById(R.id.gridLayout);
         setSingleEvent(gridLayout);
     }
@@ -109,6 +113,9 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
                     else if(index==1){
                         //statics
                         Toast.makeText(homeActivity.this,"Ranking",Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(homeActivity.this,statics.class);
+                        intent.putExtra("method","Statics");
+                        startActivity(intent);
 
                     }
                     else if(index==2){
@@ -126,8 +133,13 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
                         startActivity(intent);
                     }
                     else if(index==4){
+                        Toast.makeText(homeActivity.this,"See on Navigation Menu Data",Toast.LENGTH_SHORT).show();
+                    }
+                    else if(index==5){
                         //setting/->Refresh now dataSyn to server
+                        Toast.makeText(homeActivity.this,"Refressing Data",Toast.LENGTH_SHORT).show();
                         DbContract.saveToAppServer(homeActivity.this,DbContract.USER_DATA_UPDATE_URL);
+                        DbContract.allUserRankingDataFetching(homeActivity.this);
                     }
 
                 }

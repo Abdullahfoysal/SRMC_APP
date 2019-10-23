@@ -31,9 +31,9 @@
             <TextView
                 android:id="@+id/submissionVerdictId"
                 android:layout_width="wrap_content"
-                android:layout_height="25dp"
-                android:textStyle="italic"
-                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26sp"
                 android:text="No submission"/>
 
 
