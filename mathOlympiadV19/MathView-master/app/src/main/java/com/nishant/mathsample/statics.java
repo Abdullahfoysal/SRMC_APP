@@ -13,127 +13,55 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.StringTokenizer;
 
-public class problemActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
+import static com.nishant.mathsample.initActivity.getDatabaseHelper;
 
-    private TextView activityTitle;
-    private ListView listView;
+public class statics extends AppCompatActivity implements AdapterView.OnItemClickListener {
+
     private MyDatabaseHelper myDatabaseHelper;
-    private Cursor cursor;
-
+    private ListView listView;
+    //nav menu begin
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mtoggle;
-    private problemActivity context;
+    private statics context;
     private Toolbar toolbar;
-    private String method="";
+    //nav menu end
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_problem);
+        setContentView(R.layout.activity_statics);
 
-        //load nav_menu
         context=this;
+
         loadAll();
+
 
 
 
     }
     private void loadAll(){
-        loadPreData();//list view of problems
         loadNavMenu();
         setNavMenuInfo();
-
-
-
+        findAll();
+        rankingLoad();
     }
-    private void loadPreData(){
-        listView = this.<ListView>findViewById(R.id.problemActivityListViewId);
-        //Data base work
-        myDatabaseHelper = new MyDatabaseHelper(this);
-
-        method=getIntent().getExtras().getString("method");
-
-        loadData(method);
+    private void findAll(){
+        DbContract.allUserRankingDataFetching(this);
+        listView= this.<ListView>findViewById(R.id.userRankListViewId);
         listView.setOnItemClickListener(this);
+
     }
-    public void loadData(String method) {
-        activityTitle= this.<TextView>findViewById(R.id.activityTitleId);
-        activityTitle.setText(method.toUpperCase());
-
-        Cursor USER_CURSOR=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
-        String solvingString="";
-
-        if(USER_CURSOR.moveToNext()){
-            solvingString=USER_CURSOR.getString(8);
-
-        }
-
-
-        ArrayList<String> listData = new ArrayList<>();
-
-         cursor = myDatabaseHelper.showAllData("problemAndSolution");
-
-
-        if (cursor.getCount() == 0) {
-            Toast.makeText(getApplicationContext(), "NO data is available in database", Toast.LENGTH_LONG).show();
-
-        } else {
-            while (cursor.moveToNext()) {
-                int PROBLEM_ID=cursor.getInt(0);
-                //Toast.makeText(this,Integer.toString(PROBLEM_ID),Toast.LENGTH_SHORT).show();
-
-                boolean show=DbContract.userSolvingString(solvingString,PROBLEM_ID,method);
-                if(show)
-                listData.add(cursor.getString(0)+".     "+cursor.getString(1));
-
-
-
-            }
-        }
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.problem_title_list_view, R.id.problemTitleTextListViewId, listData);
-
+    private void rankingLoad(){
+         DbContract.allUserRankingDataFetching(this);
+        customAdapter adapter=new customAdapter(this);
         listView.setAdapter(adapter);
-
-
-
-    }
-
-
-    @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-
-        Object obj= getListView().getItemAtPosition(i);
-
-
-
-
-       StringTokenizer st=new StringTokenizer(obj.toString(),".");
-        String problemId="";
-
-        problemId=st.nextToken();
-
-        //Toast.makeText(getApplicationContext(),problemId,Toast.LENGTH_SHORT).show();
-
-        Intent intent=new Intent(this,problemProfileActivity.class);
-        intent.putExtra("problemId",problemId);
-
-        startActivity(intent);
-
-    }
-
-    public ListView getListView() {
-
-        return listView;
     }
     //load nav menu begin
     @Override
@@ -160,7 +88,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
         toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-       // this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         mDrawerLayout =findViewById(R.id.drawer_layout);
         mtoggle =new ActionBarDrawerToggle(context,mDrawerLayout,toolbar,R.string.open,R.string.close);
@@ -175,7 +103,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
                 int id=item.getItemId();
                 if(id==R.id.solveProblemId){
                     Toast.makeText(context,"solved problems",Toast.LENGTH_SHORT).show();
-                    System.out.println("Asse");
+
                 }
                 if(id==R.id.attemptedProblems){
                     Toast.makeText(context,"attempted problems",Toast.LENGTH_SHORT).show();
@@ -212,6 +140,7 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
         EMAIL= headerView.<TextView>findViewById(R.id.userEmailProfileId);
         PHONE= headerView.<TextView>findViewById(R.id.userPhoneProfileId);
 
+        myDatabaseHelper=getDatabaseHelper();
 
         Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
 
@@ -231,4 +160,27 @@ public class problemActivity extends AppCompatActivity implements AdapterView.On
 
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+        Object obj= getListView().getItemAtPosition(position);
+
+        Toast.makeText(getApplicationContext(),Integer.toString(position),Toast.LENGTH_SHORT).show();
+
+        userRankStatics person=DbContract.userRankList.get(position);
+
+        String USERNAME=person.getUSERNAME();
+
+
+        Intent intent=new Intent(this,userProfileActivity.class);
+        intent.putExtra("userType","online");
+        intent.putExtra("userName",USERNAME);
+
+        startActivity(intent);
+
+    }
+    public ListView getListView() {
+
+        return listView;
+    }
 }

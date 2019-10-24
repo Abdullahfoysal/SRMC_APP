@@ -45,16 +45,17 @@ public class DbContract {
     public static final int SYNC_STATUS_OK=0;
     public static final int SYNC_STATUS_FAILED=1;
     public static final String SERVER_URL="http://192.168.0.105/syncdemo/sync.php";//no need on 15/10/19 9:54Pm
-    public static final String PROBLEM_DATA_SYNC_URL="http://192.168.0.107/syncdemo/dataSync.php";//15/10/19->9:16 pm from phone to mysql
-    public static final String USERDATASYNC_URL="http://192.168.0.101/syncdemo/userDataSync.php";//signUp for
-    public static final String USER_DATA_UPDATE_URL="http://192.168.0.101/syncdemo/userDataUpdate.php";//user activity Update
+    public static final String PROBLEM_DATA_SYNC_URL="http://192.168.0.107/syncdemo/dataSync.php";//15/10/19->9:16 pm from phone to mysql add problem on phone
+    public static final String USERDATASYNC_URL="http://192.168.0.105/syncdemo/userDataSync.php";//signUp for
+    public static final String USER_DATA_UPDATE_URL="http://192.168.0.105/syncdemo/userDataUpdate.php";//user activity Update
     public static final String SERVER_URL3="http://192.168.0.117/syncdemo/dataFetch.php";//for single information such login
     public static final String SERVER_URL4="http://192.168.0.107/syncdemo/allDataFetching.php";//15/10/19->8:05 pm
-    public static final String ALL_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/allDataFetching.php";//15/10/19->8:05 pm
-    public static final String USER_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/userDataFetching.php";
-    public static final String ALL_USER_STATICS_DATA_URL="http://192.168.0.101/syncdemo/allUserDataFetching.php";//ranking of statics
-    public static final String LOGIN_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/userLogin.php";//15/10/19->8:05 pm
-    public static final String CHECK_SIGNUP_DATA_FETCHING_URL="http://192.168.0.101/syncdemo/checkSignUp.php";
+    public static final String ALL_DATA_FETCHING_URL="http://192.168.0.105/syncdemo/allDataFetching.php";//15/10/19->8:05 pm
+    public static final String USER_DATA_FETCHING_URL="http://192.168.0.105/syncdemo/userDataFetching.php";
+    public static final String ALL_USER_STATICS_DATA_URL="http://192.168.0.105/syncdemo/userRankingDataFetching.php";//ranking of statics
+    public static final String USER_RANK_SOLVING_STRING_DATA_URL="http://192.168.0.105/syncdemo/userRankSolvingStringFetching.php";//ranked user solvingString data
+    public static final String LOGIN_DATA_FETCHING_URL="http://192.168.0.105/syncdemo/userLogin.php";//15/10/19->8:05 pm
+    public static final String CHECK_SIGNUP_DATA_FETCHING_URL="http://192.168.0.105/syncdemo/checkSignUp.php";
     public static final String UI_UPDATE_BROADCAST="com.nishant.mathsample.uiupdatebroadcast";
     public static final String DATABASE_NAME="contactdb";
     public static final String DATABASE_NAME2="SRMC.db";
@@ -65,6 +66,7 @@ public class DbContract {
     public static final String SYNC_STATUS="syncstatus";
     public static String CURRENT_USER_NAME="alex";
     public static  ArrayList<userRankStatics>userRankList=new ArrayList<>();
+    public static ArrayList<userRankStatics>userSolvingString=new ArrayList<>();
 
     //NEW USER SOLVING STRING SIZE=20,001
     public static final String NEW_USER_SOLVING_STRING="00000000000000000000000000000000000000000000000000000000000000000000000000000000000";
@@ -453,6 +455,19 @@ public class DbContract {
             }
             else DbContract.Alert(ctx,"Network Connection","Connect to Internet");
 
+
+        }
+
+        public static synchronized void userRankSolvingStringFetching(Context ctx,String USERNAME){
+
+                if(checkNetworkConnection(ctx)){
+
+                    String method = "userRankSolvingStringFetching";
+                    BackgroundTask backgroundTask = new BackgroundTask(ctx);
+                    backgroundTask.execute(method,USERNAME);
+
+                }
+                else DbContract.Alert(ctx,"Network Connection","Connect to Internet");
 
         }
 

@@ -1,5 +1,6 @@
 package com.nishant.mathsample;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -11,52 +12,147 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.nishant.mathsample.initActivity.getDatabaseHelper;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
-public class statics extends AppCompatActivity {
+public class problemActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
-    private MyDatabaseHelper myDatabaseHelper;
+    private TextView activityTitle;
     private ListView listView;
-    //nav menu begin
+    private MyDatabaseHelper myDatabaseHelper;
+    private Cursor cursor;
+
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mtoggle;
-    private statics context;
+    private problemActivity context;
     private Toolbar toolbar;
-    //nav menu end
-
+    private String method="";
+    private String USER_TYPE="offline";
+    private String SOLVING_STRING="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_statics);
+        setContentView(R.layout.activity_problem);
 
+        //load nav_menu
         context=this;
-
         loadAll();
-
 
 
 
     }
     private void loadAll(){
+        loadListView();//list view of problems
+        loadListViewData();
+
         loadNavMenu();
         setNavMenuInfo();
-        findAll();
-        rankingLoad();
-    }
-    private void findAll(){
-        DbContract.allUserRankingDataFetching(this);
-        listView= this.<ListView>findViewById(R.id.userRankListViewId);
+
+
 
     }
-    private void rankingLoad(){
-         DbContract.allUserRankingDataFetching(this);
-        customAdapter adapter=new customAdapter(this);
+    private void loadListView(){
+        listView = this.<ListView>findViewById(R.id.problemActivityListViewId);
+        //Data base work
+        myDatabaseHelper = new MyDatabaseHelper(this);
+        listView.setOnItemClickListener(this);
+    }
+    private void loadListViewData(){
+
+        method=getIntent().getExtras().getString("method");
+        USER_TYPE=getIntent().getExtras().getString("userType");
+
+        if(DbContract.userSolvingString!=null){
+
+            userRankStatics person=DbContract.userSolvingString.get(0);
+            SOLVING_STRING=person.getSOLVING_STRING();
+        }
+
+        loadData();
+
+    }
+
+    public void loadData() {
+        activityTitle= this.<TextView>findViewById(R.id.activityTitleId);
+        activityTitle.setText(method.toUpperCase());
+        if(USER_TYPE.equals("offline")){
+
+            Cursor USER_CURSOR=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
+            String solvingString="";
+
+            if(USER_CURSOR.moveToNext()){
+                SOLVING_STRING=USER_CURSOR.getString(8);
+
+            }
+        }
+
+
+
+
+        ArrayList<String> listData = new ArrayList<>();
+
+         cursor = myDatabaseHelper.showAllData("problemAndSolution");
+
+
+        if (cursor.getCount() == 0) {
+            Toast.makeText(getApplicationContext(), "NO data is available in database", Toast.LENGTH_LONG).show();
+
+        } else {
+            while (cursor.moveToNext()) {
+                int PROBLEM_ID=cursor.getInt(0);
+                //Toast.makeText(this,Integer.toString(PROBLEM_ID),Toast.LENGTH_SHORT).show();
+
+                boolean show=DbContract.userSolvingString(SOLVING_STRING,PROBLEM_ID,method);
+                if(show)
+                listData.add(cursor.getString(0)+".     "+cursor.getString(1));
+
+
+
+            }
+        }
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.problem_title_list_view, R.id.problemTitleTextListViewId, listData);
+
         listView.setAdapter(adapter);
+
+
+
+    }
+
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+
+        Object obj= getListView().getItemAtPosition(i);
+
+
+
+
+       StringTokenizer st=new StringTokenizer(obj.toString(),".");
+        String problemId="";
+
+        problemId=st.nextToken();
+
+        //Toast.makeText(getApplicationContext(),problemId,Toast.LENGTH_SHORT).show();
+
+        Intent intent=new Intent(this,problemProfileActivity.class);
+        intent.putExtra("problemId",problemId);
+
+        startActivity(intent);
+
+    }
+
+    public ListView getListView() {
+
+        return listView;
     }
     //load nav menu begin
     @Override
@@ -83,7 +179,7 @@ public class statics extends AppCompatActivity {
 
         toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+       // this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mDrawerLayout =findViewById(R.id.drawer_layout);
         mtoggle =new ActionBarDrawerToggle(context,mDrawerLayout,toolbar,R.string.open,R.string.close);
@@ -98,7 +194,7 @@ public class statics extends AppCompatActivity {
                 int id=item.getItemId();
                 if(id==R.id.solveProblemId){
                     Toast.makeText(context,"solved problems",Toast.LENGTH_SHORT).show();
-
+                    System.out.println("Asse");
                 }
                 if(id==R.id.attemptedProblems){
                     Toast.makeText(context,"attempted problems",Toast.LENGTH_SHORT).show();
@@ -135,7 +231,6 @@ public class statics extends AppCompatActivity {
         EMAIL= headerView.<TextView>findViewById(R.id.userEmailProfileId);
         PHONE= headerView.<TextView>findViewById(R.id.userPhoneProfileId);
 
-        myDatabaseHelper=getDatabaseHelper();
 
         Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
 

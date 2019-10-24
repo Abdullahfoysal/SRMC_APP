@@ -11,8 +11,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/toolBarStyle">
-        <activity android:name=".statics"></activity>
-        <activity android:name=".gridActivity"></activity>
+        <activity android:name=".userProfileActivity"></activity>
+        <activity android:name=".statics" />
+        <activity android:name=".gridActivity" />
         <activity android:name=".initActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

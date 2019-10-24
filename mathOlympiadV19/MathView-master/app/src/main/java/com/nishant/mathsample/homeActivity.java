@@ -133,7 +133,11 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
                         startActivity(intent);
                     }
                     else if(index==4){
-                        Toast.makeText(homeActivity.this,"See on Navigation Menu Data",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(homeActivity.this,"See shotcuts on Navigation Menu",Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(homeActivity.this,userProfileActivity.class);
+                        intent.putExtra("userName",CURRENT_USER);
+                        intent.putExtra("userType","offline");
+                        startActivity(intent);
                     }
                     else if(index==5){
                         //setting/->Refresh now dataSyn to server
