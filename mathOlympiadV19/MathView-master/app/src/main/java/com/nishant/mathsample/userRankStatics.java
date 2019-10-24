@@ -8,10 +8,24 @@ public class userRankStatics {
     private String INSTITUTION;
     private String SOLVED;
     private String STATUS;
+    private String USERNAME;
+    private String SOLVING_STRING;
 
+    public String getSOLVING_STRING() {
+        return SOLVING_STRING;
+    }
 
+    public void setSOLVING_STRING(String SOLVING_STRING) {
+        this.SOLVING_STRING = SOLVING_STRING;
+    }
 
+    public String getUSERNAME() {
+        return USERNAME;
+    }
 
+    public void setUSERNAME(String USERNAME) {
+        this.USERNAME = USERNAME;
+    }
 
     public void setNAME(String NAME) {
         this.NAME = NAME;

@@ -337,13 +337,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
             InputStream is=null;
 
             try {
-               /* URL url = new URL(userDataFetching_URL);
-                HttpURLConnection con = (HttpURLConnection) url.openConnection();
-                con.setDoOutput(true);
-                con.setRequestMethod("GET");
-                is = new BufferedInputStream(con.getInputStream());
-*/
-                //new
+
                 URL url = new URL(userDataFetching_URL);
                 HttpURLConnection httpURLConnection= (HttpURLConnection) url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
@@ -358,7 +352,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 outputStream.close();
 
                 is = new BufferedInputStream(httpURLConnection.getInputStream());
-                //new
+
 
             }catch(Exception e){
                 e.printStackTrace();
@@ -471,6 +465,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                     jo = ja.getJSONObject(i);
 
                     final String NAME = jo.getString("name");
+                    final String USERNAME=jo.getString("userName");
                     final String INSTITUTION=jo.getString("institution");
                     final String TOTAL_SOLVED=jo.getString("totalSolved");
 
@@ -478,6 +473,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
 
                         person.setNAME(NAME);
+                        person.setUSERNAME(USERNAME);
                         person.setINSTITUTION(INSTITUTION);
                         person.setSOLVED(TOTAL_SOLVED);
 
@@ -485,7 +481,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
 
 
-                    System.out.println(NAME+" "+INSTITUTION+" "+TOTAL_SOLVED);
+                    System.out.println(NAME+" "+USERNAME+" "+INSTITUTION+" "+TOTAL_SOLVED);
 
 
                 }
@@ -501,6 +497,87 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
             return "SUCESSFULLY GET RANKING";
 
+        }
+        else if(method.equals("userRankSolvingStringFetching")){
+
+            ArrayList<userRankStatics> arrayList=new ArrayList<>();
+
+            String USERNAME=params[1];
+            String result=null;
+            InputStream is=null;
+
+            try {
+
+                URL url = new URL(DbContract.USER_RANK_SOLVING_STRING_DATA_URL);
+                HttpURLConnection httpURLConnection= (HttpURLConnection) url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+                OutputStream outputStream= httpURLConnection.getOutputStream();
+                BufferedWriter bufferedWriter=new BufferedWriter(new OutputStreamWriter(outputStream,"UTF-8"));
+                String data=URLEncoder.encode("userName","UTF-8")+"="+URLEncoder.encode(USERNAME,"UTF-8");
+                bufferedWriter.write(data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                is = new BufferedInputStream(httpURLConnection.getInputStream());
+
+
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            //read is content into a string
+            try{
+                BufferedReader br=new BufferedReader(new InputStreamReader(is,"UTF-8"));
+                StringBuilder sb=new StringBuilder();
+                String line=null;
+                while((line=br.readLine())!=null){
+
+                    if(line.equals("notFound")){
+                        return "Not Matched";
+                    }
+
+                    sb.append(line+"\n");
+
+                }
+                is.close();
+                result=sb.toString();
+
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            //parse json data
+            try{
+                JSONArray ja=new JSONArray(result);
+                JSONObject jo=null;
+
+                for(int i=0;i<ja.length();i++){
+
+                    jo=ja.getJSONObject(i);
+
+                    final String SOLVINGSTRING=jo.getString("solvingString");
+
+                  userRankStatics person=new userRankStatics();
+
+                  person.setSOLVING_STRING(SOLVINGSTRING);
+                    arrayList.add(person);
+
+                    DbContract.userSolvingString=arrayList;
+
+//                    System.out.append(SOLVINGSTRING+" FROM Dbcontract to backgrouondTask");
+
+
+
+                }
+            } catch(Exception e){
+                e.printStackTrace();
+                return "No connection is available";
+            }
+
+            return "Rank user data Loaded";
+
+            //retrive data from json object end
         }
 
 
