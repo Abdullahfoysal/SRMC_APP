@@ -33,7 +33,7 @@ import static com.nishant.mathsample.initActivity.getDatabaseHelper;
 
 public class dataSyncActivity extends AppCompatActivity {
 
-    static MyDatabaseHelper myDatabaseHelper;
+     MyDatabaseHelper myDatabaseHelper;
 
     RecyclerView recyclerView;
     EditText Name;
@@ -49,7 +49,7 @@ public class dataSyncActivity extends AppCompatActivity {
 
 
 
-
+        myDatabaseHelper=getDatabaseHelper();
 
         recyclerView = this.<RecyclerView>findViewById(R.id.recyclerViewId);
 
@@ -63,23 +63,23 @@ public class dataSyncActivity extends AppCompatActivity {
         saveToAppServer();
         readFromLocalStorage("local data update to server ");
 
-        broadcastReceiver=new BroadcastReceiver() {
+      /*  broadcastReceiver=new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
 
                 readFromLocalStorage("local data update to server ");
 
             }
-        };
+        };*/
     }
 
 
-    public static void readFromLocalStorage(String activityMessage){
+    public  void readFromLocalStorage(String activityMessage){
 
         arrayList.clear();
 
 
-           myDatabaseHelper=getDatabaseHelper();
+
 
            Cursor cursor=myDatabaseHelper.showAllData("userInformation");
 
@@ -121,7 +121,7 @@ public class dataSyncActivity extends AppCompatActivity {
 
             Toast.makeText(getApplicationContext(),"network is on",Toast.LENGTH_SHORT).show();
 
-         final MyDatabaseHelper myDatabaseHelper =getDatabaseHelper();
+          final MyDatabaseHelper myDatabaseHelper =getDatabaseHelper();
 
             Cursor cursor=myDatabaseHelper.showAllData("userInformation");
 
@@ -142,7 +142,7 @@ public class dataSyncActivity extends AppCompatActivity {
                 if(sync_status==DbContract.SYNC_STATUS_FAILED){
 
 
-                    StringRequest stringRequest = new StringRequest(Request.Method.POST, DbContract.USERDATASYNC_URL,
+                    StringRequest stringRequest = new StringRequest(Request.Method.POST, DbContract.USER_DATA_UPDATE_URL,
                             new Response.Listener<String>() {
                                 @Override
                                 public void onResponse(String response) {
@@ -151,7 +151,7 @@ public class dataSyncActivity extends AppCompatActivity {
                                         String Response = jsonObject.getString("response");
 
                                         if (Response.equals("OK")) {
-                                            Toast.makeText(getApplicationContext(), "saved on server", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(getApplicationContext(), "saved on server on dataSyncActivity", Toast.LENGTH_SHORT).show();
 
                                             myDatabaseHelper.updateLocalDatabase(DbContract.SYNC_STATUS_OK,USERNAME);
 
@@ -216,7 +216,7 @@ public class dataSyncActivity extends AppCompatActivity {
 
     }
 
-    @Override
+  /*  @Override
     protected void onStart() {
         super.onStart();
         registerReceiver(broadcastReceiver,new IntentFilter(DbContract.UI_UPDATE_BROADCAST));
@@ -227,5 +227,5 @@ public class dataSyncActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         unregisterReceiver(broadcastReceiver);
-    }
+    }*/
 }

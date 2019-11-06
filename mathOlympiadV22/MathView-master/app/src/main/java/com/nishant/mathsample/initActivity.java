@@ -24,13 +24,31 @@ public class initActivity extends AppCompatActivity implements View.OnClickListe
     private void loadAll(){
         initDatabase();
         findAllButton();
-        saveAllToServer();
+        updateServerToLocal();
 
 
     }
-    private void saveAllToServer(){
+    private void updateServerToLocal(){
 
-         DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);//userInformation for signUp information update to server
+        //problemAndSolution saveFromServer thread
+
+        new Thread(){
+            @Override
+            public void run() {
+                try {
+
+                    DbContract.saveFromServer(context);
+
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+
+
+
+            }
+        }.start();
+
+         //DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);//userInformation for signUp information update to server
 
 
     }

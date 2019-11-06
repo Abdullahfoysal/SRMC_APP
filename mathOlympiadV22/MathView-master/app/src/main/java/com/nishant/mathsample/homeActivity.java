@@ -76,6 +76,7 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void loadAll(){
+
         loadLocalDatabase();
          guestUser();
         findAllButton();
@@ -87,6 +88,7 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     private void userAllFunction(){
+        DbContract.Alert(this,"User information","Welcome "+CURRENT_USER);
         //all user Rank
         DbContract.allUserRankingDataFetching(this);
 
@@ -104,6 +106,26 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
 
                     if(index==0){
+
+                            //new thread for problem update begin
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                try {
+
+                                    DbContract.saveFromServer(context);
+
+                                }catch (Exception e){
+                                    e.printStackTrace();
+                                }
+
+
+
+                            }
+                        }.start();
+
+                        //new thread for problem update end
+
                         Toast.makeText(homeActivity.this,"All Problems",Toast.LENGTH_SHORT).show();
                         Intent intent=new Intent(homeActivity.this,problemActivity.class);
                         intent.putExtra("method","allProblem");
@@ -113,7 +135,25 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
                     }
                     else if(index==1){
                         //statics
-                        DbContract.allUserRankingDataFetching(homeActivity.this);
+                        //new thread for Rank update begin
+                        new Thread(){
+                            @Override
+                            public void run() {
+                                try {
+
+                                    DbContract.allUserRankingDataFetching(context);
+
+                                }catch (Exception e){
+                                    e.printStackTrace();
+                                }
+
+
+
+                            }
+                        }.start();
+
+                        //new thread for rank update end
+
 
                         Toast.makeText(homeActivity.this,"Ranking",Toast.LENGTH_SHORT).show();
                         Intent intent=new Intent(homeActivity.this,statics.class);
@@ -149,9 +189,6 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
                         Toast.makeText(homeActivity.this,"Activity Monitoring",Toast.LENGTH_SHORT).show();
 
-                        DbContract.saveToAppServer(homeActivity.this,DbContract.USER_DATA_UPDATE_URL);
-                        DbContract.allUserRankingDataFetching(homeActivity.this);
-
                         startActivity(new Intent(homeActivity.this,dataSyncActivity.class));
                     }
 
@@ -178,7 +215,8 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        DbContract.saveToAppServer(this,DbContract.USERDATASYNC_URL);
+        DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);
+
         DbContract.userInformationUpdateFromServer(this);//backgroundTask method="userDataFetching"
 
         setNavMenuInfo();
@@ -321,36 +359,36 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if(id==R.id.updateButtonId){
 
-            String method="saveFromServer";
+           /* String method="saveFromServer";
             BackgroundTask backgroundTask=new BackgroundTask(this);
-            backgroundTask.execute(method);
+            backgroundTask.execute(method);*/
 
         }
         else if(id==R.id.addProblemButtonId){
-            startActivity(new Intent(this,menuActivity.class));
+//            startActivity(new Intent(this,menuActivity.class));
 
         }
         else if(id==R.id.signUpButtonId){
 
-            startActivity(new Intent(this,signUpActivity.class));
+//            startActivity(new Intent(this,signUpActivity.class));
         }
         else if(id==R.id.uploadUserInformationId){
 
-            startActivity(new Intent(this,dataSyncActivity.class));
+//            startActivity(new Intent(this,dataSyncActivity.class));
 
         }
         else if(id==R.id.refreshButtonId){
-            DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);
+//            DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);
         }
         else if(id==R.id.attemptedProblemButtonId){
-            Intent intent=new Intent(this,problemActivity.class);
+           /* Intent intent=new Intent(this,problemActivity.class);
             intent.putExtra("method","attempted");
-            startActivity(intent);
+            startActivity(intent);*/
         }
         else if(id==R.id.solvedProblemButtonId){
-            Intent intent=new Intent(this,problemActivity.class);
+           /* Intent intent=new Intent(this,problemActivity.class);
             intent.putExtra("method","solved");
-            startActivity(intent);
+            startActivity(intent);*/
 
         }
     }

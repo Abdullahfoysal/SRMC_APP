@@ -9,150 +9,65 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.GridLayout;
+import android.widget.AdapterView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 import static com.nishant.mathsample.initActivity.getDatabaseHelper;
 
-public class userProfileActivity extends AppCompatActivity {
+public class statics extends AppCompatActivity implements AdapterView.OnItemClickListener {
+
+    private MyDatabaseHelper myDatabaseHelper;
+    private ListView listView;
     //nav menu begin
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mtoggle;
-    private userProfileActivity context;
+    private statics context;
     private Toolbar toolbar;
-    //nav end
-    private MyDatabaseHelper myDatabaseHelper;
-    //profile date
-    private TextView name,institution,email,rank;
-    private GridLayout gridLayout;
-    private String CURRENT_USERNAME="";
-    private String USER_TYPE="offline";
-    private int USER_INDEX=0;
-    private String MY_CURRENT_RANK="Not in First 30";
+    //nav menu end
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_profile);
+        setContentView(R.layout.activity_statics);
+
         context=this;
 
         loadAll();
+
+
+
+
     }
     private void loadAll(){
-        myDatabaseHelper=getDatabaseHelper();
-
-        loadGridLayout();
-        loadCurrentUserInformation();
-        updateUserProfileInformation();
         loadNavMenu();
         setNavMenuInfo();
-
+        findAll();
+        rankingLoad();
+    }
+    private void findAll(){
+        DbContract.allUserRankingDataFetching(this);
+        listView= this.<ListView>findViewById(R.id.userRankListViewId);
+        listView.setOnItemClickListener(this);
 
     }
-    private void updateUserProfileInformation(){
-
-        name= this.<TextView>findViewById(R.id.userProfileNameId);
-        institution= this.<TextView>findViewById(R.id.userProfileInstitutionId);
-        email= this.<TextView>findViewById(R.id.userProfileEmailId);
-        rank= this.<TextView>findViewById(R.id.userProfileRankId);
-
-        if(USER_TYPE.equals("online")){
-
-            userRankStatics person=DbContract.userRankList.get(USER_INDEX);
-            name.setText(person.getNAME());
-            institution.setText(person.getINSTITUTION());
-            email.setText(person.getEMAIL());
-            rank.setText(person.getRANK());
-        }
-        if(USER_TYPE.equals("offline")){
-
-
-            Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
-            if(cursor.moveToNext()){
-                name.setText(cursor.getString(0));
-                institution.setText(cursor.getString(7));
-                email.setText(cursor.getString(5));
-                rank.setText(MY_CURRENT_RANK);
-
-            }
-
-            for(int i=0;i<DbContract.userRankList.size();i++){
-
-                userRankStatics person=DbContract.userRankList.get(i);
-                if(person.getUSERNAME().equals(DbContract.CURRENT_USER_NAME)){
-                    rank.setText(person.getRANK());
-                    break;
-                }
-
-            }
-
-
-
-
-        }
-
-    }
-    private void loadCurrentUserInformation(){
-        CURRENT_USERNAME=getIntent().getExtras().getString("userName");
-        USER_TYPE=getIntent().getExtras().getString("userType");
-        USER_INDEX=getIntent().getExtras().getInt("userIndex");
-
-        //GET USER solving String
-        DbContract.userRankSolvingStringFetching(this,CURRENT_USERNAME);
-
-
-
-
-    }
-    private void loadGridLayout(){
-        myDatabaseHelper=getDatabaseHelper();
-
-        gridLayout= this.<GridLayout>findViewById(R.id.userProfilegridLayout);
-        setSingleEvent(gridLayout);
-    }
-    private void setSingleEvent(GridLayout gridLayout){
-        for(int i=0;i<gridLayout.getChildCount();i++){
-
-            CardView cardView= (CardView) gridLayout.getChildAt(i);
-            final int index=i;
-            cardView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-
-                    if(index==0){
-                        Toast.makeText(userProfileActivity.this,"Attempted problems",Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(userProfileActivity.this,problemActivity.class);
-                        intent.putExtra("method","attempted");
-                        intent.putExtra("userType",USER_TYPE);
-                        startActivity(intent);
-
-                    }
-                    else if(index==1){
-                        //statics
-                        Toast.makeText(userProfileActivity.this,"Solved problems",Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(userProfileActivity.this,problemActivity.class);
-                        intent.putExtra("method","solved");
-                        intent.putExtra("userType",USER_TYPE);
-                        startActivity(intent);
-
-                    }
-
-                }
-            });
-        }
+    private void rankingLoad(){
+         DbContract.allUserRankingDataFetching(this);
+        customAdapter adapter=new customAdapter(this);
+        listView.setAdapter(adapter);
     }
     //load nav menu begin
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if(mtoggle.onOptionsItemSelected(item)){
-
             return true;
         }
 
@@ -164,10 +79,10 @@ public class userProfileActivity extends AppCompatActivity {
         if(mDrawerLayout.isDrawerOpen(GravityCompat.START)){
             mDrawerLayout.closeDrawer(GravityCompat.START);
         }
-        else {
+        else{
+
             super.onBackPressed();
         }
-
     }
     public void loadNavMenu(){
 
@@ -205,7 +120,6 @@ public class userProfileActivity extends AppCompatActivity {
     }
     //nav menu function end
 
-    //nav info update
     private void setNavMenuInfo(){
         TextView USERNAME,NAME,INSTITUTION,EMAIL,PHONE;
         String _USERNAME="",_NAME="",_INSTITUTION="",_EMAIL="",_PHONE="";
@@ -226,6 +140,7 @@ public class userProfileActivity extends AppCompatActivity {
         EMAIL= headerView.<TextView>findViewById(R.id.userEmailProfileId);
         PHONE= headerView.<TextView>findViewById(R.id.userPhoneProfileId);
 
+        myDatabaseHelper=getDatabaseHelper();
 
         Cursor cursor=myDatabaseHelper.query("userInformation",DbContract.CURRENT_USER_NAME);
 
@@ -243,5 +158,34 @@ public class userProfileActivity extends AppCompatActivity {
         EMAIL.setText(_EMAIL);
         PHONE.setText(_PHONE);
 
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+        Object obj= getListView().getItemAtPosition(position);
+
+        Toast.makeText(getApplicationContext(),"clicked",Toast.LENGTH_SHORT).show();
+
+        if(DbContract.userRankList.get(position)!=null){
+
+           userRankStatics person=DbContract.userRankList.get(position);
+
+            String USERNAME=person.getUSERNAME();
+            DbContract.userRankSolvingStringFetching(this,USERNAME);
+
+            Intent intent=new Intent(this,userProfileActivity.class);
+            intent.putExtra("userType","online");
+            intent.putExtra("userName",USERNAME);
+            intent.putExtra("userIndex",position);
+
+            startActivity(intent);
+        }
+
+
+    }
+    public ListView getListView() {
+
+        return listView;
     }
 }

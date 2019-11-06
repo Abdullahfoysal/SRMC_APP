@@ -4,11 +4,14 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 
 import org.json.JSONArray;
@@ -29,13 +32,11 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.StringTokenizer;
 
-import static android.support.v4.content.ContextCompat.startActivity;
-import static com.nishant.mathsample.initActivity.getDatabase;
 import static com.nishant.mathsample.initActivity.getDatabaseHelper;
 
 public class BackgroundTask extends AsyncTask<String,Void,String> {
+
     TextView problem;
     AlertDialog alertDialog;
 
@@ -64,7 +65,6 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
         String PROBLEM_SYNC_URL=DbContract.PROBLEM_DATA_SYNC_URL;
         String login_url=DbContract.LOGIN_DATA_FETCHING_URL;//userLogin.php
         String allDataFetchingUrl=DbContract.ALL_DATA_FETCHING_URL;
-        String checkSignUp_URL=DbContract.CHECK_SIGNUP_DATA_FETCHING_URL;
         String userDataFetching_URL=DbContract.USER_DATA_FETCHING_URL;
 
 
@@ -109,6 +109,9 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
         }
         else if(method.equals("login")){
 
+
+
+
             //login only check from server
             String USERNAME=params[1];
             String PASSWORD=params[2];
@@ -118,14 +121,15 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
             try {
 
-                URL url=new URL(login_url);
+                URL url=new URL(DbContract.LOGIN_DATA_FETCHING_URL);
                 HttpURLConnection httpURLConnection= (HttpURLConnection) url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
                 httpURLConnection.setDoOutput(true);
                 httpURLConnection.setDoInput(true);
                 OutputStream outputStream= httpURLConnection.getOutputStream();
                 BufferedWriter bufferedWriter=new BufferedWriter(new OutputStreamWriter(outputStream,"UTF-8"));
-                String data=URLEncoder.encode("userName","UTF-8")+"="+URLEncoder.encode(USERNAME,"UTF-8")+"&"+
+                String data=
+                        URLEncoder.encode("userName","UTF-8")+"="+URLEncoder.encode(USERNAME,"UTF-8")+"&"+
                         URLEncoder.encode("password","UTF-8")+"="+URLEncoder.encode(PASSWORD,"UTF-8");
                 bufferedWriter.write(data);
                 bufferedWriter.flush();
@@ -154,42 +158,68 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                     Intent intent = new Intent (ctx, homeActivity.class);
                     intent.putExtra("user",USERNAME);
                     ctx.startActivity(intent);
+                    return "Login successfully";
+                }
+                else if(response.equals("FAILED")){
+                    return "LoginFailed";
                 }
                // else DbContract.Alert(ctx,"Login information","Enter correct username & password");
 
-                return response;
+                return "something wrong in login";
 
             }catch (MalformedURLException e){
                 e.printStackTrace();
+                return "Error";
             }
             catch (IOException e){
                 e.printStackTrace();
+                return "Error";
             }
 
 
         }
         else if(method.equals("checkSignUp")){
-            // create account validation
+
             String NAME=params[1];
             String USERNAME=params[2];
             String PASSWORD=params[3];
+
             String GENDER=params[4];
-            String BIRTHDATE=params[5];
+            String DATEBIRTH=params[5];
             String EMAIL=params[6];
-            String PHONENUMBER=params[7];
+            String PHONE=params[7];
             String INSTITUTION=params[8];
+            String SOLVINGSTRING=DbContract.NEW_USER_SOLVING_STRING;
+            String TOTALSOLVED="0";
+
+
+
+
+
 
 
             try {
 
-                URL url=new URL(checkSignUp_URL);
+                URL url=new URL(DbContract.CHECK_SIGNUP_DATA_FETCHING_URL);
                 HttpURLConnection httpURLConnection= (HttpURLConnection) url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
                 httpURLConnection.setDoOutput(true);
                 httpURLConnection.setDoInput(true);
                 OutputStream outputStream= httpURLConnection.getOutputStream();
                 BufferedWriter bufferedWriter=new BufferedWriter(new OutputStreamWriter(outputStream,"UTF-8"));
-                String data=URLEncoder.encode("userName","UTF-8")+"="+URLEncoder.encode(USERNAME,"UTF-8");
+                String data=
+                        URLEncoder.encode("name","UTF-8")+"="+URLEncoder.encode(NAME,"UTF-8")+"&"+
+                        URLEncoder.encode("userName","UTF-8")+"="+URLEncoder.encode(USERNAME,"UTF-8")+"&"+
+                                URLEncoder.encode("password","UTF-8")+"="+URLEncoder.encode(PASSWORD,"UTF-8")+"&"+
+                                URLEncoder.encode("gender","UTF-8")+"="+URLEncoder.encode(GENDER,"UTF-8")+"&"+
+                                URLEncoder.encode("dateBirth","UTF-8")+"="+URLEncoder.encode(DATEBIRTH,"UTF-8")+"&"+
+                                URLEncoder.encode("email","UTF-8")+"="+URLEncoder.encode(EMAIL,"UTF-8")+"&"+
+                                URLEncoder.encode("phone","UTF-8")+"="+URLEncoder.encode(PHONE,"UTF-8")+"&"+
+                                URLEncoder.encode("institution","UTF-8")+"="+URLEncoder.encode(INSTITUTION,"UTF-8")+"&"+
+                                URLEncoder.encode("solvingString","UTF-8")+"="+URLEncoder.encode(SOLVINGSTRING,"UTF-8")+"&"+
+                                URLEncoder.encode("totalSolved","UTF-8")+"="+URLEncoder.encode(TOTALSOLVED,"UTF-8");
+
+
                 bufferedWriter.write(data);
                 bufferedWriter.flush();
                 bufferedWriter.close();
@@ -208,29 +238,43 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 bufferedReader.close();
                 inputStream.close();
                 httpURLConnection.disconnect();
-
-                if(response.equals("notMatched")){
-
-                    long rowId = myDatabaseHelper.insertData(NAME, USERNAME, PASSWORD, GENDER, BIRTHDATE, EMAIL, PHONENUMBER, INSTITUTION, DbContract.NEW_USER_SOLVING_STRING, "0", DbContract.SYNC_STATUS_FAILED);
+                //change activity after login
+                if(response.equals("OK")){
 
                     DbContract.CURRENT_USER_NAME=USERNAME;
-                    DbContract.saveToAppServer(ctx,DbContract.USERDATASYNC_URL);
 
                     Intent intent = new Intent (ctx, homeActivity.class);
                     intent.putExtra("user",USERNAME);
-                    ctx.startActivity(intent);
+                     ctx.startActivity(intent);
+                    return "SIGNUP successfully";
+                }
+                else if(response.equals("MATCHED")){
+
+                    return "signUpAlready";
+                }
+                else if(response.equals("FAILED")){
+                    return "signUpFailed";
                 }
 
+                // else DbContract.Alert(ctx,"Login information","Enter correct username & password");
 
+                return "something wrong in SIGNUP";
 
-
-                return  response;
             }catch (MalformedURLException e){
                 e.printStackTrace();
+                return "Error";
             }
             catch (IOException e){
                 e.printStackTrace();
+                return "Error";
             }
+
+
+
+
+
+              //  return  "something wrong in signUp ";
+
 
         }
         else if(method.equals("saveFromServer")){
@@ -247,6 +291,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                     URL url = new URL(allDataFetchingUrl);
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                     con.setDoOutput(true);
+                    con.connect();
                     con.setRequestMethod("GET");
                      is = new BufferedInputStream(con.getInputStream());
                 }catch(Exception e){
@@ -299,7 +344,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                            final int lastUpdateTime2=cursor.getInt(10);//lastUpdateTime on local
 
                            if((lastUpdateDate==lastUpdateDate2) && (lastUpdateTime==lastUpdateTime2) ){
-                               return "Local Data up to Date";
+                               return "All problem up to Date";
                            }
 
 
@@ -365,7 +410,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 while((line=br.readLine())!=null){
 
                     if(line.equals("notFound")){
-                        return "Not Matched";
+                        return "You are not Registered user";
                     }
 
                     sb.append(line+"\n");
@@ -420,6 +465,8 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
             //retrive data from json object end
 
         }
+
+
         else if(method.equals("allUserRankingDataFetching")){//for statics of Ranking
 
             ArrayList<userRankStatics> arrayList=new ArrayList<>();
@@ -534,7 +581,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 while((line=br.readLine())!=null){
 
                     if(line.equals("notFound")){
-                        return "Not Matched";
+                        return "You are not Registered user";
                     }
 
                     sb.append(line+"\n");
@@ -545,6 +592,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
             }catch(Exception e){
                 e.printStackTrace();
+                return "No connection is available";
             }
             //parse json data
             try{
@@ -574,7 +622,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 return "No connection is available";
             }
 
-            return "Rank user data Loaded";
+            return "Updated information of user";
 
             //retrive data from json object end
         }
@@ -586,32 +634,27 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
     @Override
     protected synchronized void onPostExecute(String result) {
-        if(result.equals("Data Saved to server"))
+
+
+        switch (result){
+            case "Error":
+                DbContract.Alert(ctx,"Activity Information","Something went wrong\nTry again");
+                break;
+            case "LoginFailed":
+                DbContract.Alert(ctx,"Activity Information","Incorrect user name or password\nTry again");
+                break;
+            case "signUpAlready":
+                DbContract.Alert(ctx,"Activity Information","This user name is already taken\nTry another");
+                break;
+
+                case "signUpFailed":
+                DbContract.Alert(ctx,"Activity Information","Something went wrong on SignUp\nTry again");
+                break;
+
+
+
+        }
         Toast.makeText(ctx,result,Toast.LENGTH_SHORT).show();
-        else if(result.equals("updated Local Database") ||result.equals("Local Data up to Date") ){
-            Toast.makeText(ctx,result,Toast.LENGTH_SHORT).show();
-            //alertDialog.setMessage(result);
-            //alertDialog.show();
-        }
-        else if(result.equals("matched") || result.equals("notMatched")){//signUp
-
-            Toast.makeText(ctx,result,Toast.LENGTH_SHORT).show();
-            if(result.equals("matched")){
-                DbContract.Alert(ctx,"SignUp Information","Enter an Unique username");
-            }
-
-        }
-        else  if(result.equals("OK") || result.equals("FAILED")){//login
-            if(result.equals("FAILED")){
-                DbContract.Alert(ctx,"Login Information","Enter correct username & password");
-            }
-        }
-        else {
-           /* alertDialog.setMessage(result);
-            alertDialog.show();*/
-           Toast.makeText(ctx,result,Toast.LENGTH_SHORT).show();
-
-        }
     }
 
 

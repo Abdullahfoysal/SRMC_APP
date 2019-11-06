@@ -22,7 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".loginActivity" />
+        <activity android:name=".loginActivity" >
+
+
+        </activity>
         <activity android:name=".signUpActivity" />
         <activity android:name=".homeActivity" />
         <activity android:name=".dataFetchingActivityMain" />

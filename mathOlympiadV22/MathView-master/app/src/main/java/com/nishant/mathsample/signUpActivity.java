@@ -65,13 +65,16 @@ public class signUpActivity extends AppCompatActivity implements View.OnClickLis
         if(id==R.id.signUpButtonId){
             getAllFieldText();
 
+
                 if(!NAME.isEmpty() && !USERNAME.isEmpty() && !PASSWORD.isEmpty() && !GENDER.isEmpty() && !BIRTHDATE.isEmpty() && !EMAIL.isEmpty() && !PHONENUMBER.isEmpty() && !INSTITUTION.isEmpty() ) {
 
                     if (checkNetworkConnection()) {
 
                         String method = "checkSignUp";
                         BackgroundTask backgroundTask = new BackgroundTask(this);
-                        backgroundTask.execute(method,NAME, USERNAME, PASSWORD, GENDER, BIRTHDATE, EMAIL, PHONENUMBER, INSTITUTION);
+                        backgroundTask.execute(method,NAME,USERNAME,PASSWORD,GENDER,BIRTHDATE,EMAIL,PHONENUMBER,INSTITUTION);
+
+
 
                         }
 
@@ -82,6 +85,7 @@ public class signUpActivity extends AppCompatActivity implements View.OnClickLis
 
         }
         else if(id==R.id.link_login){
+
             startActivity(new Intent(this,loginActivity.class));
         }
 
@@ -115,6 +119,7 @@ public class signUpActivity extends AppCompatActivity implements View.OnClickLis
 
     }
     public  boolean checkNetworkConnection(){
+
         ConnectivityManager connectivityManager= (ConnectivityManager) this.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
 

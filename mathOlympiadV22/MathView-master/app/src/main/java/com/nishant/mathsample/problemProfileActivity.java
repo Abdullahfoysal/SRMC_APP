@@ -101,13 +101,25 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
             textViewverdict.setTextColor(Color.GREEN);
         }
         else if(result==DbContract.NOT_ABLE_SOLVED){
-            verdict="Enough tried(),"+DbContract.SOLVED+"Times";
+            verdict="Enough tried(-_-),"+DbContract.SOLVED+"Times";
             textViewverdict.setTextColor(Color.BLUE);
+            submittedSolutionEditText.setHint("Enough Tried(-_-)");
+
+        }
+        else if(result==DbContract.SOLVED-1) {
+
+            submittedSolutionEditText.setHint("Last Chance to Solve ");
         }
         else if(result >DbContract.NOT_TOUCHED && result<DbContract.SOLVED){
             verdict="Wrong";
             textViewverdict.setTextColor(Color.RED);
+            submittedSolutionEditText.setHint("You have "+Integer.toString(DbContract.SOLVED-result)+" more Chances");
+
         }
+
+
+
+
         textViewverdict.setText(verdict);
 
     }
@@ -240,7 +252,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
                         String ms=Integer.toString(verdict);
                         Toast.makeText(this,"Wrong Answer for "+ms+" Times",Toast.LENGTH_LONG).show();
                        // DbContract.Alert(this,"Problem Verdict","Wrong for "+ms+" Times\n Try again");
-                        submittedSolutionEditText.setHint("Wrong \n You have only "+Integer.toString(DbContract.SOLVED-verdict)+" more Chance");
+                        submittedSolutionEditText.setHint("Wrong\nYou have "+Integer.toString(DbContract.SOLVED-verdict)+" more Chances");
 
 
                     }
@@ -250,7 +262,7 @@ public class problemProfileActivity extends AppCompatActivity implements View.On
 
             submittedSolutionEditText.setText("");
             DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);//userUpdate data saved to server
-            dataSyncActivity.readFromLocalStorage(activityMessage);
+            DbContract.allUserRankingDataFetching(this);
 
             //user current submission verdict load
             loadUserData();
