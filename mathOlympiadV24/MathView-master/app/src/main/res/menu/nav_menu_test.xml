@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group_menu">
+
+        <item android:id="@+id/solveProblemId"
+            android:title="@string/solvedNumber" />
+        <item android:id="@+id/attemptedProblems"
+            android:title="@string/attemptedNumber" />
+
+
+    </group>
+    <item android:title="Setting">
+        <menu>
+            <item android:id="@+id/notificationSettingId"
+                android:title="Notification" />
+            <item android:id="@+id/logOutId"
+
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
