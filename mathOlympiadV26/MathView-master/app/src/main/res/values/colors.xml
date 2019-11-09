@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary2">#008577</color>
+    <color name="colorPrimaryDark2">#00574B</color>
+    <color name="colorAccent2">#D81B60</color>
+    <color name="problem">#BFC5C2</color>
+    <color name="problemSolution">#DAD5D5</color>
+    <color name="menuBackGroundColor">#AFFC9D</color>
+    <color name="homeBackGroundColor">#2579A2</color>
+    <color name="toolBarColor">#1179B3</color>
+    <color name="listSelectorColor">#49ACFF</color>
+    <color name="listDividerColor">#312D2D</color>
+    <color name="listBackgroundColor">#E5EFF5</color>
+    <color name="listHeadingTextColor">#24E9D4</color>
+    <color name="listHeadingBackgroundColor">#ADB1B4</color>
+    <color name="userProfileBackgroundColor">#2579A2</color>
+    <color name="myProfileBackgroundColor">#92D7FD</color>
+    <color name="myProfileTextColor">#CE3707</color>
+    <color name="RankTextColor">#ff22</color>
+    <color name="navHeaderBackgroundColor">#92D7FD</color>
+
+</resources>
