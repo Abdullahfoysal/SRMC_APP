@@ -7,6 +7,7 @@
 
 
     <TextView
+        android:textColor="@color/problemListTextColor"
         android:id="@+id/problemTitleTextListViewId"
         android:textStyle="bold"
         android:textSize="15sp"
@@ -15,7 +16,7 @@
         android:padding="10dp"
         android:textAlignment="textStart"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"/>
+        android:layout_height="60dp"/>
 
 
 </LinearLayout>

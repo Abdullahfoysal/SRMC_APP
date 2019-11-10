@@ -5,38 +5,44 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+
         android:weightSum="6"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
         <TextView
+            android:textColor="@color/staticListTextColor"
+            android:layout_marginLeft="8dp"
             android:id="@+id/userRankNoId"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Rank "
             android:textStyle="bold"
             android:textSize="18sp"/>
         <TextView
+            android:textColor="@color/staticListTextColor"
             android:id="@+id/userNameId"
             android:layout_weight="2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Name "
             android:textStyle="bold"
             android:textSize="18sp"/>
         <TextView
+            android:textColor="@color/staticListTextColor"
             android:id="@+id/userInstitutionId"
             android:layout_weight="2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="institution "
             android:textStyle="bold"
             android:textSize="18sp"/>
         <TextView
+            android:textColor="@color/staticListTextColor"
             android:id="@+id/userTotalProblemSolvedId"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Solved "

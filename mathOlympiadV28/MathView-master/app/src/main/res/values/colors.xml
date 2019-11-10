@@ -21,5 +21,7 @@
     <color name="myProfileTextColor">#CE3707</color>
     <color name="RankTextColor">#ff22</color>
     <color name="navHeaderBackgroundColor">#92D7FD</color>
+    <color name="staticListTextColor">#0C0C83</color>
+    <color name="problemListTextColor">#2F2F6D</color>
 
 </resources>
