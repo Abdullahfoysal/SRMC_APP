@@ -11,9 +11,9 @@
     <color name="menuBackGroundColor">#AFFC9D</color>
     <color name="homeBackGroundColor">#2579A2</color>
     <color name="toolBarColor">#1179B3</color>
-    <color name="listSelectorColor">#49ACFF</color>
+    <color name="listSelectorColor">#AFFC9D</color>
     <color name="listDividerColor">#312D2D</color>
-    <color name="listBackgroundColor">#E5EFF5</color>
+    <color name="listBackgroundColor">#f2f5df</color>
     <color name="listHeadingTextColor">#24E9D4</color>
     <color name="listHeadingBackgroundColor">#ADB1B4</color>
     <color name="userProfileBackgroundColor">#2579A2</color>

@@ -43,7 +43,7 @@ import static com.nishant.mathsample.initActivity.getDatabase;
 import static com.nishant.mathsample.initActivity.getDatabaseHelper;
 
 
-public class homeActivity extends AppCompatActivity implements View.OnClickListener {
+public class homeActivity extends AppCompatActivity {
 
     private MyDatabaseHelper myDatabaseHelper;
     private SQLiteDatabase sqLiteDatabase;
@@ -56,13 +56,14 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
     private String CURRENT_USER="";
     private GridLayout gridLayout;
     private String USER_TYPE="offline";
+
     //nav menu end
 
 
     //button
     private Button showProblemButton,updateProblemButton,addProblemButton,signUpButton,syncButton,refreshButton,attemptedButton,solvedButton;
 
-    private BroadcastReceiver broadcastReceiver,broadcastReceiverUpdateProblem;
+    private BroadcastReceiver broadcastReceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,8 +73,8 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        loadAll();//nav,button,database//network backgroundwork
-        //System.out.println(DbContract.CURRENT_USER_NAME+" ON PROFILE IS ACTIVE");
+            loadAll();//nav,button,database//network backgroundwork
+
 
     }
 
@@ -97,9 +98,14 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void userAllFunction(){
-        DbContract.Alert(this,"User information","Welcome "+CURRENT_USER);
-        //all user Rank
-        DbContract.allUserRankingDataFetching(this);
+        if(DbContract.FIRST_IMPRESSION==DbContract.ON){
+            DbContract.Alert(this,"User information","Welcome "+CURRENT_USER);
+            //all user Rank
+            DbContract.allUserRankingDataFetching(this);
+
+            DbContract.FIRST_IMPRESSION=DbContract.OFF;
+        }
+
 
         gridLayout= this.<GridLayout>findViewById(R.id.gridLayout);
         setSingleEvent(gridLayout);
@@ -355,25 +361,7 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
     private void findAllButton(){
 
 
-        showProblemButton= this.<Button>findViewById(R.id.showButtonId);
-        updateProblemButton= this.<Button>findViewById(R.id.updateButtonId);
-        addProblemButton= this.<Button>findViewById(R.id.addProblemButtonId);
-        signUpButton= this.<Button>findViewById(R.id.signUpButtonId);
-        syncButton=findViewById(R.id.uploadUserInformationId);
-        refreshButton= this.<Button>findViewById(R.id.refreshButtonId);
-        attemptedButton= this.<Button>findViewById(R.id.attemptedProblemButtonId);
-        solvedButton= this.<Button>findViewById(R.id.solvedProblemButtonId);
 
-
-
-        showProblemButton.setOnClickListener(this);
-        updateProblemButton.setOnClickListener(this);
-        addProblemButton.setOnClickListener(this);
-        signUpButton.setOnClickListener(this);
-        syncButton.setOnClickListener(this);
-        refreshButton.setOnClickListener(this);
-        attemptedButton.setOnClickListener(this);
-        solvedButton.setOnClickListener(this);
     }
 
 
@@ -394,63 +382,25 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onPause() {
         super.onPause();
-
+       // unregisterReceiver(broadcastReceiver);
     }
 
     @Override
     protected void onStop() {
         super.onStop();
+        //unregisterReceiver(broadcastReceiver);
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
         unregisterReceiver(broadcastReceiver);
     }
 
     @Override
-    public void onClick(View view) {
-        long id=view.getId();
-        if(id==R.id.showButtonId){
-
-            Intent intent=new Intent(this,problemActivity.class);
-            intent.putExtra("method","allProblem");
-            startActivity(intent);
-
-        }
-        else if(id==R.id.updateButtonId){
-
-           /* String method="saveFromServer";
-            BackgroundTask backgroundTask=new BackgroundTask(this);
-            backgroundTask.execute(method);*/
-
-        }
-        else if(id==R.id.addProblemButtonId){
-//            startActivity(new Intent(this,menuActivity.class));
-
-
-        }
-        else if(id==R.id.signUpButtonId){
-
-//            startActivity(new Intent(this,signUpActivity.class));
-
-        }
-        else if(id==R.id.uploadUserInformationId){
-
-//            startActivity(new Intent(this,dataSyncActivity.class));
-
-
-        }
-        else if(id==R.id.refreshButtonId){
-//            DbContract.saveToAppServer(this,DbContract.USER_DATA_UPDATE_URL);
-
-        }
-        else if(id==R.id.attemptedProblemButtonId){
-           /* Intent intent=new Intent(this,problemActivity.class);
-            intent.putExtra("method","attempted");
-            startActivity(intent);*/
-        }
-        else if(id==R.id.solvedProblemButtonId){
-           /* Intent intent=new Intent(this,problemActivity.class);
-            intent.putExtra("method","solved");
-            startActivity(intent);*/
-
-        }
+    protected void onResume() {
+        super.onResume();
     }
 
     //load nav menu begin
@@ -479,10 +429,7 @@ public class homeActivity extends AppCompatActivity implements View.OnClickListe
                         @Override
                         public void onClick(DialogInterface dialogInterface, int id) {
                             homeActivity.this.finish();
-                            //exit app from this activity
-                            moveTaskToBack(true);
-                            android.os.Process.killProcess(android.os.Process.myPid());
-                            System.exit(1);
+                            System.exit(0);
                             //exit end
                         }
                     })

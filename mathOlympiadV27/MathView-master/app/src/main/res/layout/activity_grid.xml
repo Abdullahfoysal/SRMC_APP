@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2579A2"
+    android:gravity="center"
+    android:layout_gravity="center"
     android:weightSum="10"
     tools:context="com.nishant.mathsample.gridActivity">
 

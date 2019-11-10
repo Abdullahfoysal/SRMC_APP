@@ -376,6 +376,9 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                     return "No connection is available";
                 }
 
+                cursor=myDatabaseHelper.showAllData("problemAndSolution");
+                DbContract.CURRENT_PROBLEM_NUMBER=cursor.getCount();
+
                 return "updated Local Database";
 
             //retrive data from json object end

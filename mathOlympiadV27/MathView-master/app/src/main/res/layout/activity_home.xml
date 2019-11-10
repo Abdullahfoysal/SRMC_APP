@@ -9,7 +9,10 @@
     android:fitsSystemWindows="true"
     tools:context="com.nishant.mathsample.navigationMenu"
     tools:openDrawer="start">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homeBackGroundColor">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,68 +24,17 @@
         tools:context=".homeActivity">
 
 
+
         <include layout="@layout/activity_grid"/>
 
 
-        <Button
 
-            android:id="@+id/showButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Show Problem"
-            android:padding="5dp"/>
-        <Button
-
-            android:id="@+id/updateButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Update Problem"
-            android:padding="5dp"/>
-        <Button
-
-            android:id="@+id/addProblemButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add Problem"
-            android:padding="5dp"/>
-
-        <Button
-
-            android:id="@+id/signUpButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:padding="5dp"/>
-        <Button
-
-            android:id="@+id/uploadUserInformationId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Synchronize User Data to Online"
-            android:padding="5dp"/>
-
-        <Button
-            android:id="@+id/refreshButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Refresh Screen"
-            android:padding="6dp"/>
-        <Button
-            android:id="@+id/attemptedProblemButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Attempted Problem"
-            android:padding="6dp"/>
-        <Button
-            android:id="@+id/solvedProblemButtonId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Solved Problem"
-            android:padding="6dp"/>
 
 
 
     </LinearLayout>
+
+</ScrollView>
 
 
 

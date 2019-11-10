@@ -9,16 +9,18 @@
     android:fitsSystemWindows="true"
     tools:context="com.nishant.mathsample.navigationMenu"
     tools:openDrawer="start">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myProfileBackgroundColor">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/userProfileBackgroundColor"
         android:orientation="vertical"
-
-        tools:context=".userProfileActivity">
+        tools:context=".myProfileActivity">
 
         <GridLayout
             android:layout_marginTop="60dp"
@@ -59,7 +61,7 @@
 
                         android:textSize="25dp"/>
                     <TextView
-                        android:id="@+id/userProfileNameId"
+                        android:id="@+id/myProfileNameId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Abdullah foysal"
@@ -78,7 +80,7 @@
 
                         android:textSize="25dp"/>
                     <TextView
-                        android:id="@+id/userProfileInstitutionId"
+                        android:id="@+id/myProfileInstitutionId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="SUST"
@@ -98,7 +100,7 @@
 
                         android:textSize="25dp"/>
                     <TextView
-                        android:id="@+id/userProfileEmailId"
+                        android:id="@+id/myProfileEmailId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="mail.com"
@@ -108,7 +110,7 @@
 
                 <LinearLayout
                     android:layout_gravity="center"
-                    android:textColor="@color/myProfileTextColor"
+                    android:textColor="@color/RankTextColor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <TextView
@@ -116,14 +118,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="RANK:"
-
                         android:textSize="25dp"/>
                     <TextView
-                        android:id="@+id/userProfileRankId"
+                        android:id="@+id/myProfileRankId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1"
-
                         android:textSize="30dp"/>
                 </LinearLayout>
 
@@ -132,8 +132,14 @@
 
         </GridLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+
         <GridLayout
-            android:id="@+id/userProfilegridLayout"
+            android:id="@+id/myProfilegridLayout"
             android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -157,7 +163,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Attempted"
+                        android:text="Join contest"
                         android:textAlignment="viewStart"
                         android:layout_gravity="center"
                         android:textColor="#1E7A22"
@@ -168,7 +174,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/attempted" />
+                        android:src="@drawable/contest" />
 
 
 
@@ -196,7 +202,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Solved"
+                        android:text="Add problem"
                         android:textAlignment="viewStart"
                         android:layout_gravity="center"
                         android:textColor="#1E7A22"
@@ -207,7 +213,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/solvedproblem" />
+                        android:src="@drawable/addproblem" />
 
 
 
@@ -217,8 +223,12 @@
 
         </GridLayout>
 
+        </LinearLayout>
 
     </LinearLayout>
+
+    </ScrollView>
+
 
 
 

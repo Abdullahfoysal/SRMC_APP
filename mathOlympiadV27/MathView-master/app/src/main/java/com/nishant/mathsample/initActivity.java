@@ -34,6 +34,7 @@ public class initActivity extends AppCompatActivity implements View.OnClickListe
         loadAll();
     }
     private void loadAll(){
+        DbContract.FIRST_IMPRESSION=DbContract.ON;
         initDatabase();
         findAllButton();
         updateServerToLocal();
@@ -42,6 +43,10 @@ public class initActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     private void loggedUser(){
+
+        Cursor problemCountCursor=myDatabaseHelper.showAllData("problemAndSolution");
+        DbContract.CURRENT_PROBLEM_NUMBER=problemCountCursor.getCount();
+
         Cursor cursor =myDatabaseHelper.showAllData("userInformation");
 
         while (cursor.moveToNext()){
@@ -158,10 +163,7 @@ public class initActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onClick(DialogInterface dialogInterface, int id) {
                         initActivity.this.finish();
-                        //exit app from this activity
-                        moveTaskToBack(true);
-                        android.os.Process.killProcess(android.os.Process.myPid());
-                        System.exit(1);
+                        System.exit(0);
                         //exit end
                     }
                 })
@@ -174,6 +176,12 @@ public class initActivity extends AppCompatActivity implements View.OnClickListe
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         //Exit application end code
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
     }
     /*@Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
