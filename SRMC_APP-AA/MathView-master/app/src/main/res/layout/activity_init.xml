@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/initBackgroundColor"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".initActivity">
+
+
+   <!-- <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/initGifId"
+        android:padding="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/d1"
+        />-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="120dp"
+            android:layout_weight="5"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+
+            <Button
+
+                android:padding="40dp"
+                android:id="@+id/guestLoginButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#54E956"
+                android:text="Guest" />
+
+
+            <Button
+                    android:layout_margin="10dp"
+                android:id="@+id/initLoginButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#5DA9F0"
+                android:text="Login" />
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
