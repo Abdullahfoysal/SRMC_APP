@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

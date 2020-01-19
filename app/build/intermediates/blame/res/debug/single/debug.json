@@ -1,0 +1,2106 @@
+[
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxxhdpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-mdpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_grid.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_grid.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/menu_nav_menu.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/menu/nav_menu.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxxhdpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_solvedproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/solvedproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-ldpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_statics_header_view_layout.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/statics_header_view_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_solvedproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/solvedproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_edit_text_design.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/edit_text_design.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-ldpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_verdict_view.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/verdict_view.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_nav_header.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/nav_header.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-hdpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_attempted.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/attempted.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_contest.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/contest.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_my_profile.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_my_profile.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_logo_topranks.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/logo_topranks.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_tooltip_enter.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_activity.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/activity.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_logo_topranks.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/logo_topranks.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_allproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/allproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_profile4.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/profile4.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-hdpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_d3.gif.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/d3.gif"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-mdpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_problem_submit_design.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/problem_submit_design.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_attempted.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/attempted.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xxxhdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_menu.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_solved_black_24dp.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/solved_black_24dp.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_allproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/allproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xhdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_activity.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/activity.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-hdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_contest.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/contest.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_addproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/addproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_solvedproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/solvedproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_logo_topranks.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/logo_topranks.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_signupbackground.jpeg.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/signupbackground.jpeg"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxhdpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_data_sync.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_data_sync.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xhdpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_btn_colored_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_design_tint_password_toggle.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_syn.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/syn.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_tooltip_exit.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_addproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/addproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-ldpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_home.gif.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/home.gif"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxxhdpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-mdpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxhdpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_problem_profile.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_problem_profile.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_attempted.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/attempted.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_logo_topranks.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/logo_topranks.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_design_error.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_allproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/allproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_attempted_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xhdpi/attempted_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xhdpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_attempted.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/attempted.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_sync_status.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/sync_status.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_design_password_eye.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_contest.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/contest.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_allproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/allproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_solvedproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/solvedproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_contest.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/contest.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_solved_black_24dp.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-xxhdpi/solved_black_24dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_allproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/allproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_contest.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/contest.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-hdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_problem.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_problem.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_profile4.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/profile4.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_solvedproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/solvedproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_d2.gif.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/d2.gif"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_attempted.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/attempted.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-mdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v21/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_sqlite_to_mysql.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_sqlite_to_mysql.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_profile4.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/profile4.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_d1.gif.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/d1.gif"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_profile4.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/profile4.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable-xxhdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_addproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/addproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_solved_background.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/solved_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_data_fetching_main.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_data_fetching_main.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_profile4.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/profile4.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_tooltip.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_problem_title_list_view.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/problem_title_list_view.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_design_tint_password_toggle.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_solved_background.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-hdpi/solved_background.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_attempted_black_24dp.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/generated/res/pngs/debug/drawable-anydpi-v21/attempted_black_24dp.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_testing_main.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_testing_main.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_init.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_init.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_activity.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/activity.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_activity.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxhdpi/activity.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_statics_rank_list_view_layout.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/statics_rank_list_view_layout.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_statics.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_statics.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_vector_test.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_user_profile.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/menu_nav_menu_test.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/menu/nav_menu_test.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/091d07be3f207824de488b4a89a63a28/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_addproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xhdpi/addproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi_activity.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-mdpi/activity.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi_addproblem.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-hdpi/addproblem.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_logo_topranks.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable-xxxhdpi/logo_topranks.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_activity_navigation_menu.xml.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/layout/activity_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5052b74af9a12523dcfd29ab58658ea1/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_done.png.flat",
+        "source": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/src/main/res/drawable/done.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/25171173eee35a150e7b44f0ed50e31e/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/foysal/Desktop/SRMC_APP-AA/MathView-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/foysal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f5f41138117d7745e8b066550ce6b5e6/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    }
+]

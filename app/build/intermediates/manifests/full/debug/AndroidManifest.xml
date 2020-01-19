@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nishant.mathsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/toolBarStyle" >
+        <activity android:name="com.nishant.mathsample.myProfileActivity" />
+        <activity android:name="com.nishant.mathsample.userProfileActivity" />
+        <activity android:name="com.nishant.mathsample.statics" />
+        <activity android:name="com.nishant.mathsample.gridActivity" />
+        <activity android:name="com.nishant.mathsample.initActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nishant.mathsample.loginActivity" >
+        </activity>
+        <activity android:name="com.nishant.mathsample.signUpActivity" />
+        <activity
+            android:name="com.nishant.mathsample.homeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.nishant.mathsample.dataFetchingActivityMain" />
+        <activity android:name="com.nishant.mathsample.dataSyncActivity" />
+        <activity android:name="com.nishant.mathsample.sqliteToMysql" />
+        <activity android:name="com.nishant.mathsample.navigationMenu" />
+        <activity android:name="com.nishant.mathsample.problemProfileActivity" />
+        <activity android:name="com.nishant.mathsample.problemActivity" />
+        <activity android:name="com.nishant.mathsample.menuActivity" />
+        <activity android:name="com.nishant.mathsample.MainActivity" />
+
+        <receiver android:name="com.nishant.mathsample.NetworkMonitor" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
