@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introApp.introActivity">
+
+<LinearLayout
+    android:weightSum="22"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_weight="17"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+       >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/intoViewPagerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            >
+
+        </android.support.v4.view.ViewPager>
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/introTakeATourTexviewId"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=""
+        android:textColor="@color/takeATourTextColor"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:id="@+id/slideDotsId"
+        android:layout_below="@+id/intoViewPagerId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+       >
+
+        <TextView
+            android:id="@+id/introSkipButtionId"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:textColor="@color/initBackgroundColor"
+            android:drawableTint="@color/initBackgroundColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKIP"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
